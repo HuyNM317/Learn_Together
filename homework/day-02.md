@@ -11,6 +11,7 @@ Viết một chương trình nhập vào một số nguyên dương n. In ra s�
 Ví dụ:
 
 Input: 1234
+
 Output: 4321
 
 ## Bài 3: Kiểm tra số đối xứng
@@ -20,6 +21,7 @@ Viết chương trình kiểm tra xem một số nguyên n có phải là số �
 Ví dụ:
 
 Input: 121 → Output: true
+
 Input: 123 → Output: false
 
 ## Bài 4: Tính giai thừa của một số
@@ -42,7 +44,9 @@ Input: Chuỗi = "javascript", Ký tự = 'a' → Output: 2
 
 Viết chương trình kiểm tra xem một số nguyên n có phải là số hoàn hảo hay không.
 
-Gợi ý: Số hoàn hảo là số có tổng các ước (trừ chính nó) bằng chính nó. Ví dụ: 6 là số hoàn hảo vì 1 + 2 + 3 = 6.
+Gợi ý: Số hoàn hảo là số có tổng các ước (trừ chính nó) bằng chính nó.
+
+Ví dụ: 6 là số hoàn hảo vì 1 + 2 + 3 = 6.
 
 ## Bài 7: Tính tổng các chữ số
 
@@ -70,9 +74,11 @@ Ví dụ: Với n = 4, kết quả:
 Viết chương trình kiểm tra xem một số nguyên n có phải là số Armstrong hay không.
 
 Gợi ý: Số Armstrong là số có tổng các chữ số của nó nâng lên lũy thừa bậc k (số chữ số) bằng chính nó.
+
 Ví dụ:
 
 153 là số Armstrong vì 1³ + 5³ + 3³ = 153.
+
 Input: 9474 → Output: true
 
 ## Bài 10: In ra bảng cửu chương
