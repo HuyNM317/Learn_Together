@@ -1,6 +1,6 @@
 # Bài tập về nhà buổi 03
 
-## Bài 1: N số fibonacci
+## Bài 1: Viết hàm in ra N số fibonacci
 
 Hiển thị N số Fibonacci đầu tiên
 
