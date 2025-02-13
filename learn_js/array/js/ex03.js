@@ -31,7 +31,7 @@ let users = ["An", "Dương", "Vương", "Tuấn", "Đạt", "Tuấn"];
 
 // console.log(name);
 
-const array1 = ["a", "b", "c", 12];
+// const array1 = ["a", "b", "c", 12];
 // const iterator = array1.keys();
 // console.log(iterator);
 
@@ -55,8 +55,13 @@ const array1 = ["a", "b", "c", 12];
 // Số lượng phần tử của mảng mới sẽ bằng với số lượng phần tử của mảng ban đầu
 // Giá trị của từng phần tử trong mảng sẽ phụ thuộc vào return của callback
 
-users = users.map((user, index) => {
-  return `<span>${user}</span>`;
-});
+// users = users.map((user, index) => {
+//   return `<span>${user}</span>`;
+// });
 
-console.log(users);
+console.log("@".charCodeAt());
+console.log("^".charCodeAt());
+
+// ^
+
+// console.log("Passs".charCodeAt(1)); // true
