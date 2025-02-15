@@ -48,15 +48,15 @@ let users2 = {
 
 // console.log(Object.prototype.getInfo());
 
-Object.prototype.getInfo = function (name, email) {
-  console.log(this);
+// Object.prototype.getInfo = function (name, email) {
+//   console.log(this);
 
-  return name + " " + email;
-};
+//   return name + " " + email;
+// };
 
-// Object.prototype.message = "Riba";
+// // Object.prototype.message = "Riba";
 
-let info = users.getInfo(users.name, users.email);
+// let info = users.getInfo(users.name, users.email);
 // let info2 = users2.getInfo(users2.name, users2.email);
 // console.log(info.message);
 
@@ -71,3 +71,12 @@ let info = users.getInfo(users.name, users.email);
 //   console.log("ok");
 // }
 // temp();
+
+// Prototype chain
+
+// const obj = new Object();
+
+// console.log(obj.__proto__);
+// const obj = {};
+
+// console.log(Object.prototype);
