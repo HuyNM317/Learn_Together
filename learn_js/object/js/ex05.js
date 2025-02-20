@@ -132,18 +132,66 @@
 //     .replaceAll(" ", "+")}`
 // );
 
-let queryString = `?limit=20&page=1&keyword=du+an+1&category=fairy+tail`;
+// let queryString = `?limit=20&page=1&keyword=du+an+1&category=fairy+tail`;
 
-queryString = queryString.slice(1);
+// queryString = queryString.slice(1);
 
-console.log(
-  Object.fromEntries(
-    queryString.split("&").map((item) => {
-      let temp = item.split("=");
-      temp[1] = temp[1].replaceAll("+", " ");
-      return temp;
-    })
-  )
-);
+// console.log(
+//   Object.fromEntries(
+//     queryString.split("&").map((item) => {
+//       let temp = item.split("=");
+//       temp[1] = temp[1].replaceAll("+", " ");
+//       return temp;
+//     })
+//   )
+// );
 
 // Mảng 2 chiều là một mảng mà các phần tử của nó cũng là mảng
+
+// Object.assign(target, ...source)
+
+// const target = {
+//   a: 1,
+//   b: 2,
+// };
+
+// const source = {
+//   c: 3,
+//   d: 4,
+// };
+
+// const obj = {
+//   e: 5,
+//   f: 6,
+// };
+
+// const result = Object.assign(target, source, obj);
+
+// console.log(result);
+// console.log(target);
+// const obj = {
+//   name: "huy",
+// };
+
+// Object.freeze(obj);
+
+// obj.name = "Duy";
+// obj.age = 18;
+
+// delete obj.name;
+
+// console.log(obj);
+
+// const obj = {
+//   name: "huy",
+// };
+
+// Object.seal(obj);
+
+// obj.name = "Duy";
+
+// obj.age = 25;
+
+// delete obj.name;
+
+// console.log(obj);

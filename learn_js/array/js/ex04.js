@@ -46,14 +46,14 @@
 
 // temp(1, 2, 3, 4);
 
-const array1 = ["a", "b", "c"];
+// const array1 = ["a", "b", "c"];
 
-const iterator1 = array1.entries();
+// const iterator1 = array1.entries();
 
 // [[0, 'a'], [1, 'b'], []]
 
 // console.log(iterator1);
 
-for (const item of array1) {
-  console.log(item);
-}
+// for (const item of array1) {
+//   console.log(item);
+// }

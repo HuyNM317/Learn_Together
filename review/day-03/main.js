@@ -34,4 +34,6 @@ const standardizeName = (fullname) => {
   return fullname;
 };
 
-console.log(standardizeName(fullName));
+// console.log(standardizeName(fullName));
+
+console.log(Math.floor((6.3 - 5) * 10));
