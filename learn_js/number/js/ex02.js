@@ -30,3 +30,56 @@
 // let temp = 0
 
 // [12,3,43,4]
+
+const validateNumber = (number) => {
+  number = +number;
+  if (
+    Number.isNaN(number) ||
+    Math.abs(number) === Infinity ||
+    number <= 0 ||
+    number > 100 ||
+    Number.isInteger(number) === false
+  ) {
+    return false;
+  }
+  return true;
+};
+
+console.log(validateNumber("Infinity"));
+
+let number = 0;
+s;
+while (number <= 7) {
+  if (number < 7) {
+    let secretNumber = Math.floor(Math.random() * 100);
+    let selectNumber = prompt("Mời chọn số");
+    console.log(!selectNumber, Number.isNaN(selectNumber), selectNumber < 0);
+
+    if (!selectNumber || Number.isNaN(selectNumber) || selectNumber < 0) {
+      alert("Vui lòng nhập vào số hợp lệ");
+    } else if (selectNumber > secretNumber) {
+      alert(`Số bạn đoán quá lớn! Số bí mật là ${secretNumber}`);
+    } else if (selectNumber < secretNumber) {
+      alert(`Số bạn đoán quá nhỏ! Số bí mật là ${secretNumber}`);
+    } else {
+      alert("Chúc mừng! Bạn đã đoán đúng số bí mật!");
+    }
+  } else {
+    alert("Bạn đã hết lượt chơi!");
+  }
+  number += 1;
+}
+// const arr = [];
+// for (let i = 0; i < 3000; i++) {
+//   const number = Math.floor(Math.random() * 100) + 1;
+//   if (!arr.includes(number)) {
+//     arr.push(number);
+//   }
+// }
+// // sort
+
+// arr.sort((a, b) => a - b);
+// // console.log(arr);
+// let secretNumber = Math.floor(Math.random() * 100);
+// let selectNumber = prompt("Mời chọn số");
+// console.log(!selectNumber, Number.isNaN(selectNumber), selectNumber < 0);
