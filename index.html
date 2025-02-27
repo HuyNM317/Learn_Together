@@ -49,10 +49,6 @@
             let period = "";
 
             if (format === 12) {
-                console.log(hours);
-                hours = 0;
-                console.log(hours % 12 || 12);
-
                 period = hours >= 12 ? "CH" : "SA";
                 hours = hours % 12 || 12;
             }
@@ -64,9 +60,9 @@
                 `${hours}:${minutes}:${seconds} ${period}`.trim();
 
             const dateString = now.toLocaleDateString("vi-VN", {
-                weekday: "short",
+                weekday: "long",
                 year: "numeric",
-                month: "short",
+                month: "long",
                 day: "numeric",
             });
             document.getElementById("date").textContent = dateString;
@@ -79,7 +75,6 @@
 
         setInterval(updateClock, 1000);
         updateClock();
-
     </script>
 </body>
 
